@@ -1,4 +1,4 @@
-## Fantasy Cricket Application
+# Fantasy Cricket Application
 
 This is an app that lets you to build cricket teams from available list of 
 players and evalutate their performance from available match data.
@@ -8,29 +8,35 @@ players and evalutate their performance from available match data.
 ## How it Works?
 
 Run the Run.py and in menu barchoose "Manage Teams" and select "New Team".
-
-![Menubar](https://github.com/bgvmysore/fantastyCricket/blob/master/screenhots/menubar.png)
+<img src="https://github.com/bgvmysore/fantastyCricket/blob/master/screenhots/menubar.png" alt="menubar" width="500">
 
 Choose the players from the list in left hand side.They are organised by their
 roles.Double click to choose.
-
-![newteam_window](https://github.com/bgvmysore/fantastyCricket/blob/master/screenhots/newteam.png)
+<img src="https://github.com/bgvmysore/fantastyCricket/blob/master/screenhots/newteam.png" alt="newteamwindow" width="500">
 
 Once the team is selected goto "Manage Teams" menu and select "Evaluate"
-
 In Evaluate Window you have a drop down of available matches.Select one from 
 the list and click evaluate button. A list of players scores will appear after
 that you can close the Evaluate window.
-
-![EvaluateWindow](https://github.com/bgvmysore/fantastyCricket/blob/master/screenhots/eval.png)
+<img src="https://github.com/bgvmysore/fantastyCricket/blob/master/screenhots/eval.png" alt="EvaluateWindow" width="500">
 
 Also, once players for you team is selected you can save the team by going to 
-"Manage teams" and selecting "Save Team".Once a team is saved you can open it 
-next time by selecting "Open Team" instead of "New Team" from "Manage Team" 
-menu.
+"Manage teams" and selecting "Save Team".
+<img src="https://github.com/bgvmysore/fantastyCricket/blob/master/screenhots/save.png" alt="saveWindow" width="500">
 
-![savewindow](https://github.com/bgvmysore/fantastyCricket/blob/master/screenhots/save.png)
-![openwindow](https://github.com/bgvmysore/fantastyCricket/blob/master/screenhots/open.png)
+Once a team is saved you can open it next time by selecting "Open Team" instead of "New Team" from "Manage Team" 
+menu.
+<img src="https://github.com/bgvmysore/fantastyCricket/blob/master/screenhots/open.png" alt="openWindow" width="500">
+
+If you want to clone this repo and use this project make sure you have the following:
+
+### Dependencies
+
+  1. python3
+  2. SQLite
+  3. pyqt5
+  4. pyqt5-tools
+  
 
 ## Project Organisation
 
