@@ -3,6 +3,8 @@
 This is an app that lets you to build cricket teams from available list of 
 players and evalutate their performance from available match data.
 
+![](https://github.com/bgvmysore/fantastyCricket/blob/master/screenhots/start_ui.png)
+
 ## How it Works?
 
 Run the Run.py and in menu bar choose "Manage Teams" and select "New Team".
