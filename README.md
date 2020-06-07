@@ -3,7 +3,7 @@
 This is an app that lets you to build cricket teams from available list of 
 players and evalutate their performance from available match data.
 
-![startscreen](https://github.com/bgvmysore/fantastyCricket/blob/master/screenhots/start_ui.png)
+![startscreen](https://github.com/bgvmysore/fantastyCricket/blob/master/screenhots/start_ui.png | width=250)
 
 ## How it Works?
 
