@@ -26,9 +26,8 @@ Once a team is saved you can open it next time by selecting "Open Team" instead 
 
 <img src="https://github.com/bgvmysore/fantastyCricket/blob/master/screenhots/open.png" alt="openWindow" width="500">
 
-####If you want to clone this repo and use this project make sure you have the following:
+##### If you want to clone this repo and use this project make sure you have the following:
 ##### Dependencies
-
   1. python3
   2. SQLite
   3. pyqt5
