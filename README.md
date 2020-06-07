@@ -7,12 +7,12 @@ players and evalutate their performance from available match data.
 
 ## How it Works?
 
-Run the Run.py and in menu bar choose "Manage Teams" and select "New Team".
+Run the Run.py and in menu barchoose "Manage Teams" and select "New Team".
 
 ![Menubar](https://github.com/bgvmysore/fantastyCricket/blob/master/screenhots/menubar.png)
 
 Choose the players from the list in left hand side.They are organised by their
-roles.DOuble click to choose.
+roles.Double click to choose.
 
 ![newteam_window](https://github.com/bgvmysore/fantastyCricket/blob/master/screenhots/newteam.png)
 
@@ -38,12 +38,11 @@ menu.
 
 2.Databases is found in db folder.
 
-3.DB are split into 3 cricket.db contains players,teams.db contains teams saved
-,matches.db contains match details.
+3.DB are split into 3 cricket.db contains players,teams.db contains teams saved,matches.db contains match details.
 
 4.UI Files folder contains pyqt5 designer files.
 
 
-Note: You can add your own Match data or Player Data in the respected SQLite 
+**Note**: You can add your own Match data or Player Data in the respected SQLite 
 Databases present in 'db' directory. Make sure you populate all the required
 columns.
