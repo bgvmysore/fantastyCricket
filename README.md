@@ -14,7 +14,7 @@ Choose the players from the list in left hand side. They are organised by their 
 
 <img src="https://github.com/bgvmysore/fantastyCricket/blob/master/screenhots/newteam.png" alt="newteamwindow" width="500">
 
-Once the team is selected goto "Manage Teams" menu and select "Evaluate". In Evaluate Window you have a drop down of available matches. Select one from the list and click evaluate button. A list of players scores will appear afterthat you can close the Evaluate window.
+Once the team is selected goto "Manage Teams" menu and select "Evaluate". In Evaluate Window you have a drop down of available matches. Select one from the list and click evaluate button. A list of players scores will appear after that you can close the Evaluate window.
 
 <img src="https://github.com/bgvmysore/fantastyCricket/blob/master/screenhots/eval.png" alt="EvaluateWindow" width="500">
 
