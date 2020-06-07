@@ -10,7 +10,7 @@ Run the Run.py and in menu barchoose "Manage Teams" and select "New Team".
 
 <img src="https://github.com/bgvmysore/fantastyCricket/blob/master/screenhots/menubar.png" alt="menubar" width="500">
 
-Choose the players from the list in left hand side.They are organised by their roles. Double click to choose.
+Choose the players from the list in left hand side. They are organised by their roles. Double click to choose.
 
 <img src="https://github.com/bgvmysore/fantastyCricket/blob/master/screenhots/newteam.png" alt="newteamwindow" width="500">
 
@@ -26,7 +26,7 @@ Once a team is saved you can open it next time by selecting "Open Team" instead 
 
 <img src="https://github.com/bgvmysore/fantastyCricket/blob/master/screenhots/open.png" alt="openWindow" width="500">
 
-##### If you want to clone this repo and use this project make sure you have the following:
+**If you want to clone this repo and use this project make sure you have the following:**
 ##### Dependencies
   1. python3
   2. SQLite
