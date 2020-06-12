@@ -21,7 +21,7 @@ class Ui_Evaluate(object):
         self.t1 = Team(p_tupl)
         conn = ConDB()
         self.listofMatches = conn.listofmatches()
-        
+
     def setupUi(self, Evaluate):
         Evaluate.setObjectName("Evaluate")
         Evaluate.resize(526, 458)
@@ -75,7 +75,7 @@ class Ui_Evaluate(object):
         self.pushButton.setObjectName("pushButton")
         self.pushButton.clicked.connect(self.btnstate)
         self.gridLayout.addWidget(self.pushButton, 3, 0, 1, 3)
-        
+
         for i in self.listofMatches:
             self.comboBox.addItem(i)
 
@@ -83,7 +83,7 @@ class Ui_Evaluate(object):
             x = myitems(i[0]+f"\t{i[-2]}P\t{i[-1]}")
             x.p_tupleitem(i)
             self.listWidget.addItem(x)
-            
+
         self.retranslateUi(Evaluate)
         QtCore.QMetaObject.connectSlotsByName(Evaluate)
 
@@ -96,7 +96,7 @@ class Ui_Evaluate(object):
             for i in self.m1.teamscores_list:
                 self.listWidget_2.addItem(str(i[-1]))
             return
-            
+
     def retranslateUi(self, Evaluate):
         _translate = QtCore.QCoreApplication.translate
         Evaluate.setWindowTitle(_translate("Evaluate", "Evaluate"))

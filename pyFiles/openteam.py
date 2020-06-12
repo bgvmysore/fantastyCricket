@@ -15,7 +15,7 @@ class Ui_OpenTeam(object):
     def __init__(self):
         self.t1 = Team()
         self.listofallteams = Team.teams
-        
+
     def setupUi(self, OpenTeam):
         OpenTeam.setObjectName("OpenTeam")
         OpenTeam.resize(314, 164)
@@ -36,12 +36,12 @@ class Ui_OpenTeam(object):
 
         self.retranslateUi(OpenTeam)
         QtCore.QMetaObject.connectSlotsByName(OpenTeam)
-        
+
     def retranslateUi(self, OpenTeam):
         _translate = QtCore.QCoreApplication.translate
-        OpenTeam.setWindowTitle(_translate("OpenTeam", "OPEN"))
+        OpenTeam.setWindowTitle(_translate("OpenTeam", "Open"))
         self.label.setText(_translate("OpenTeam", "Double Click to Open:"))
-    
+
     # def selection(self, item):
         # self.teamselected = item.text()
         # print(self.teamselected)

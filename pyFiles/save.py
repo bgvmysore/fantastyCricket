@@ -15,7 +15,7 @@ class Ui_SaveTeam(object):
     # def __init__(self, p_tupl):
         # self.p_tup = p_tupl
         # return
-        
+
     def setupUi(self, SaveTeam):
         SaveTeam.setObjectName("SaveTeam")
         SaveTeam.resize(381, 240)
@@ -44,7 +44,7 @@ class Ui_SaveTeam(object):
 
         self.retranslateUi(SaveTeam)
         QtCore.QMetaObject.connectSlotsByName(SaveTeam)
-    
+
     # def saveteamf(self):
         #print("new")
         # try:
@@ -56,10 +56,10 @@ class Ui_SaveTeam(object):
         # except Exception as e:
             # error = e
             # self.Dialog.setText(str(error))
-            
+
     def retranslateUi(self, SaveTeam):
         _translate = QtCore.QCoreApplication.translate
-        SaveTeam.setWindowTitle(_translate("SaveTeam", "Dialog"))
+        SaveTeam.setWindowTitle(_translate("SaveTeam", "Save"))
         self.label.setText(_translate("SaveTeam", "Enter Team Name : "))
         self.Dialog.setText(_translate("SaveTeam", " "))
         self.pushButton.setText(_translate("SaveTeam", "SAVE"))
